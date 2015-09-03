@@ -8,5 +8,5 @@ CREATE TABLE freelancer (
 id bigint(20) NOT NULL AUTO_INCREMENT PRIMARY KEY,
 name varchar(255) NOT NULL,
 position varchar(255) DEFAULT NULL,
-salary float,
+salary int(15),
 email varchar(255) DEFAULT NULL)Engine=InnoDB;
